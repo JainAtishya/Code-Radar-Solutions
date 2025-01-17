@@ -8,7 +8,7 @@ int main() {
     // printf("%s", welcome());
     int a; 
     scanf("%d", &a);
-    printf("Hexadecimal: %x\n", a);
+    printf("Hexadecimal: %X\n", a);
     printf("Octal: %o", a);
     return 0;
 }

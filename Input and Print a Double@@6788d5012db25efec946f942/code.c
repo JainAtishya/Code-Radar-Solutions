@@ -7,7 +7,7 @@
 int main() {
     // printf("%s", welcome());
     float a;
-    scanf("%.2f", &a);
-    printf("You entered: %.2f", a);
+    scanf("%f", &a);
+    printf("You entered: %f", a);
     return 0;
 }

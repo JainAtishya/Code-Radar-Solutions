@@ -7,9 +7,9 @@
 int main() {
     // printf("%s", welcome());
     int a, b, c;
-    double avg;
+    float avg;
     scanf("%d %d %d", &a, &b, &c);
     avg = (a + b + c)/ 3;
-    printf("Average: %.2lf", avg); 
+    printf("Average: %f", avg); 
     return 0;
 }

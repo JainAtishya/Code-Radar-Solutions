@@ -7,7 +7,7 @@
 int main() {
     // printf("%s", welcome());
     double a;
-    scanf("%d", &a);
-    printf("You entered: %.4d", a);
+    scanf("%lf", &a);
+    printf("You entered: %.4lf", a);
     return 0;
 }

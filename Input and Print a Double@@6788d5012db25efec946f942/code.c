@@ -6,8 +6,8 @@
 
 int main() {
     // printf("%s", welcome());
-    float a;
-    scanf("%.4f", &a);
-    printf("You entered: %.4f", a);
+    double a;
+    scanf("%d", &a);
+    printf("You entered: %.4d", a);
     return 0;
 }

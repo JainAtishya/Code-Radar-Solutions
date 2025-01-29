@@ -10,7 +10,7 @@ int main() {
     // printf("%s", welcome());
     int a, b;
     scanf("%d %d", &a, &b);
-    bool ans = a > b;
+    bool ans = (a > b);
     if(bool){
         printf("True");
     }

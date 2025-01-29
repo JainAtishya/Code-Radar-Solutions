@@ -8,7 +8,7 @@ int main() {
     // printf("%s", welcome());
     char ch;
     scanf("%c", &ch);
-    if((ch >= 'A') && (ch <= 'Z')){
+    if(isupper(ch)){
         printf("Uppercase");
     }else{
         printf("Lowercase");

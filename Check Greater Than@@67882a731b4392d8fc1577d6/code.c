@@ -10,8 +10,8 @@ int main() {
     // printf("%s", welcome());
     int a, b;
     scanf("%d %d", &a, &b);
-    bool ans = (a > b);
-    if(bool){
+    
+    if(a>b){
         printf("True");
     }
     else{

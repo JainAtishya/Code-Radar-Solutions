@@ -7,6 +7,7 @@
 int main() {
     // printf("%s", welcome());
     int a,b,c,greatest,sum;
+    scanf("%d %d %d", &a, &b, &c);
     if((a>b) && (a>c)){
         greatest = a;
         sum = b + c;

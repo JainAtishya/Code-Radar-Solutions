@@ -7,10 +7,11 @@
 int main() {
     // printf("%s", welcome());
     int cp sp;
+    int diff = sp - cp;
     scanf("%d %d", &cp, &sp);
-    if((sp-cp)> 0){
+    if(doff> 0){
         printf("Profit");
-    }else if((sp - cp)< 0){
+    }else if(diff < 0){
         printf("Loss");
     }else {
         printf(" No Profiit No Loss");

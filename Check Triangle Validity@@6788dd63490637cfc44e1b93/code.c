@@ -6,21 +6,11 @@
 
 int main() {
     // printf("%s", welcome());
-    int a,b,c,greatest,sum;
+    int a,b,c;
     scanf("%d %d %d", &a, &b, &c);
-    if((a>b) && (a>c)){
-        greatest = a;
-        sum = b + c;
-    }else if(b>c){
-        greatest = b;
-        sum = a + c;
-    } else {
-        greatest = c;
-        sum = a + b;
-    }
-    if(sum>= greatest) {
+    if((a+b>c) && (b+c>a) && (a+c>b) ){
         printf("Valid");
-    }else{
+    } else {
         printf("Invalid");
     }
     return 0;

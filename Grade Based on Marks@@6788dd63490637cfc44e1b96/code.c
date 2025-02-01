@@ -18,7 +18,7 @@ int main() {
     }else if((num>=60) && (num < 70)){
         grade = 'D';
     }else {
-        grade = 'F'
+        grade = 'F';
     }
     printf("%c", grade);
     return 0;

@@ -6,15 +6,13 @@
 
 int main() {
     // printf("%s", welcome());
-    int cp sp;
-    int diff = sp - cp;
-    scanf("%d %d", &cp, &sp);
-    if(doff> 0){
+    int cp, sp;
+    scanf("%d  %d", &cp, &sp);
+    if(sp> cp){
         printf("Profit");
-    }else if(diff < 0){
+    } else if (sp < cp){
         printf("Loss");
-    }else {
-        printf(" No Profiit No Loss");
+    } else {
+        printf("No Profit No Loss");
     }
-    return 0;
 }

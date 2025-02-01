@@ -7,6 +7,7 @@
 int main() {
     // printf("%s", welcome());
     int cp sp;
+    scanf("%d %d", &cp, &sp);
     if((sp-cp)> 0){
         printf("Profit");
     }else if((sp - cp)< 0){

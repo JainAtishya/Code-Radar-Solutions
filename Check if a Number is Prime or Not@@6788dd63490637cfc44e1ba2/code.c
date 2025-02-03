@@ -17,7 +17,7 @@ int main() {
         printf("Not Prime")
     }
     else{
-        for(int i = 2; i < math.a-1; i++){
+        for(int i = 2; i <a; i++){
             if(a % i == 0){
                 printf("Not Prime");
             }else{

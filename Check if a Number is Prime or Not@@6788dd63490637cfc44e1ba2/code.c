@@ -1,5 +1,5 @@
 #include <stdio.h>
-// #include <math.h>
+#include <math.h>
 
 // char* welcome() {
 //     return "Welcome to Code Radar!";
@@ -16,8 +16,8 @@ int main() {
     }else if((a % 2 == 0)|| (a % 3 == 0)){
         printf("Not Prime")
     }
-    else if{
-        for(int i = 2; i < a-1; i++){
+    else{
+        for(int i = 2; i < math.a-1; i++){
             if(a % i == 0){
                 printf("Not Prime");
             }else{

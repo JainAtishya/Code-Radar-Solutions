@@ -13,9 +13,10 @@ int main() {
         printf("Not Prime");
     }else if(a == 2){
         printf("Prime");
-    }else if((a % 2 == 0)|| (a % 3 == 0)){
-        printf("Not Prime")
     }
+    // }else if((a % 2 == 0)|| (a % 3 == 0)){
+    //     printf("Not Prime")
+    // }
     else{
         for(int i = 2; i <a; i++){
             if(a % i == 0){

@@ -8,7 +8,7 @@ int main() {
     // printf("%s", welcome());
     int day;
     scanf("%d", &day);
-    switch (day);
+    switch (day) {
     case 1:
         printf("Monday");
         break;
@@ -30,5 +30,6 @@ int main() {
     case 7:
         printf("Sunday");
         break;
+    }
     return 0;
 }

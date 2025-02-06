@@ -8,8 +8,8 @@ int main() {
     // printf("%s", welcome());
     int N;
     scanf("&d", &N);
-    int sum = 0;
     for(int i =1; i <= N; i++ ){
+        int sum=0;
         sum += i;
     }
     printf("%d", sum);

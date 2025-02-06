@@ -8,9 +8,9 @@ int main() {
     // printf("%s", welcome());
     int N;
     scanf("&d", &N);
-    for(int i =1; i <= N; i++ ){
-        int sum=0;
-        sum += i;
+    int sum = 0;
+    for(int i =0; i < N; i++ ){
+        i += i;
     }
     printf("%d", sum);
     return 0;

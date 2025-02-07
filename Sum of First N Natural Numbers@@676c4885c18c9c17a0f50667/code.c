@@ -7,10 +7,10 @@
 int main() {
     // printf("%s", welcome());
     int N;
-    scanf("&d", &N);
+    scanf("%d", &N);
     int sum = 0;
     for(int i =1; i <= N; i++ ){
-        sum += N;
+        sum += i;
     }
     printf("%d", sum);
     return 0;

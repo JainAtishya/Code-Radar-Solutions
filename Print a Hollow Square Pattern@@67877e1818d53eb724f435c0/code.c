@@ -13,9 +13,10 @@ int main() {
             if(i == 1 || i == n || j==1 || j==n ){
                 printf("*");
             }else {
-                Printf(" ");
+                printf(" ");
             }
         }
+        printf("\n");
     }
     return 0;
 }

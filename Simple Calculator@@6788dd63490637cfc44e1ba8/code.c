@@ -1,17 +1,28 @@
-// Your code here...
 #include <stdio.h>
-int main(){
-    int a,b;
+
+int main() {
+    int a, b;
     char operator;
-    scanf("%d %c %d ", &a, &operator, &b);
-    if(operator == '+'){
-        printf("%d", (a + b));
-    }else if(operator == '-'){
-        printf("%d", (a - b));
-    }else if(operator == '*'){
-        printf("%d", (a * b));
-    }else{
-        printf("%d", (a/b));
+
+    // Corrected scanf format
+    scanf("%d %c %d", &a, &operator, &b);
+
+    // Handling different operators
+    if (operator == '+') {
+        printf("%d", a + b);
+    } else if (operator == '-') {
+        printf("%d", a - b);
+    } else if (operator == '*') {
+        printf("%d", a * b);
+    } else if (operator == '/') {
+        if (b == 0) {
+            printf("Error! Division by zero.");
+        } else {
+            printf("%d", a / b);
+        }
+    } else {
+        printf("Invalid operator!");
     }
+
     return 0;
 }

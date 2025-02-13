@@ -13,5 +13,5 @@ int main(){
     }else{
         printf("%d", (a/b));
     }
-    return
+    return 0;
 }

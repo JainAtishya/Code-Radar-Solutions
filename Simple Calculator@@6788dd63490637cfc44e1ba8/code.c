@@ -5,7 +5,7 @@ int main() {
     char operator;
 
     // Corrected scanf format
-    scanf("%d %c %d", &a, &b, &operator,);
+    scanf("%d %c %d", &a, &b, &operator);
 
     // Handling different operators
     if (operator == '+') {

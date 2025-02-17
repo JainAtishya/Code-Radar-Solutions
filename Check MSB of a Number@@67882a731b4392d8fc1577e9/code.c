@@ -9,5 +9,5 @@ int main(){
     }else{
         printf("Not Set");
     }
-    retrun 0;
+    return 0;
 }

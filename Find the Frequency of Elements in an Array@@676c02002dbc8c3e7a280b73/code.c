@@ -19,8 +19,9 @@ int main() {
         for(int j = 0; j < N; j++){
             if(arr[i]==arr[j]){
                 freq++;
+                visited[j] = 1;
             }
-            visited[j] = 1;
+            
         }
         printf("%d %d\n", arr[i], freq);
         // newarr[i] = arr[i];

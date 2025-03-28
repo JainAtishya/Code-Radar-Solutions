@@ -10,6 +10,7 @@ int main() {
     }
     int k;
     scanf("%d", &k);
+    k = k % N;
     for(int i = N-k; i < N; i++){
         printf("%d ", arr[i]);
     }

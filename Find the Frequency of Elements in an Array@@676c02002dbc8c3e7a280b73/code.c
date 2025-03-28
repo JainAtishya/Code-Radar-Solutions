@@ -8,7 +8,8 @@ int main() {
     for(int i = 0; i < N; i++){
         scanf("%d", &arr[i]);
     }
-    int newarr[N] = {0};
+    int newarr[N];
+    newarr = {0};
     for(int i = 0; i < N; i++){
         int freq = 0;
         if(newarr[i] == arr[i]){

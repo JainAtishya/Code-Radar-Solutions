@@ -17,9 +17,9 @@ int main(){
     }
     if(isSorted){
         printf("Sorted");
-    }else(
+    }else{
         printf("Not Sorted");
-    )
+    }
     
     return 0;
 }

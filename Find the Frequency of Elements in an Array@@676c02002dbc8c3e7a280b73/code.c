@@ -8,13 +8,18 @@ int main() {
     for(int i = 0; i < N; i++){
         scanf("%d", &arr[i]);
     }
+    int newarr[N] = {0};
     for(int i = 0; i < N; i++){
         int freq = 0;
+        if(newarr[i] == arr[i]){
+            continue;
+        }
         for(int j = 0; j < N; j++){
             if(arr[i]==arr[j]){
                 freq++;
             }
         }
         printf("%d %d\n", arr[i], freq);
+        newarr[i] = arr[i];
     }
 }

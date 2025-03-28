@@ -14,7 +14,7 @@ int main() {
         for(int j = 0; j < N; j++){
             if(arr[i] > arr[j]){
                 second_largest = largest;
-                largest = arr[i];
+                largest = arr[j];
             }
         }
     }

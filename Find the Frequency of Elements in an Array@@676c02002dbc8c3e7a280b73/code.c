@@ -9,7 +9,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
     int newarr[N];
-    newarr = {0};
+    newarr[0] = {0};
     for(int i = 0; i < N; i++){
         int freq = 0;
         if(newarr[i] == arr[i]){

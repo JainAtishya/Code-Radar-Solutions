@@ -13,7 +13,7 @@ int main() {
         int digit = arr[i];
         while(digit){
             sum += digit % 10;
-            digit /= 10;
+            digit = digit/10;
         }
         printf("%d ", sum);
     }

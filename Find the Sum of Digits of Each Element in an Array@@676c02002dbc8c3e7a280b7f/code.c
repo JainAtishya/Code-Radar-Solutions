@@ -11,6 +11,9 @@ int main() {
     for(int i = 0; i < N; i++){
         int sum = 0;
         int digit = arr[i];
+        if(digit < 0){
+            digit = -digit;
+        }
         while(digit){
             sum += digit % 10;
             digit = digit/10;

@@ -18,7 +18,7 @@ int main() {
         if(arr[i] == 0){
             newarr[last] = 0;
             last--;
-            start++;
+            // start++;
             // continue;
         }else{
             newarr[start] = arr[i];

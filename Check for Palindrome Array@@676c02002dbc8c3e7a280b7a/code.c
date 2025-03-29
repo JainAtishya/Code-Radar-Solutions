@@ -14,7 +14,7 @@ int main() {
         if(arr[left] != arr[right]){
             printf("NO");
             break;
-        }else if(left+right == N-1){
+        }else if(left==N/2 || left==N/2 + 1){
             printf("YES");
             break;
         }

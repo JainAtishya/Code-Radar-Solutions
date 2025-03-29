@@ -9,5 +9,6 @@ int main() {
         scanf("%d", &arr[i]);
     }
     int last = N-1;
-    int newarr[N] = {0};
+    int newarr[N];
+    newarr[0] = 0;
 }

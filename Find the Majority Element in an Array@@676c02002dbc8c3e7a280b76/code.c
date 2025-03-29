@@ -16,6 +16,7 @@ int main() {
         }
         if(freq > N/2){
             printf("%d", arr[i]);
+            break;
         }
     }                    
 }

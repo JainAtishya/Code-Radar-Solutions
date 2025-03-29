@@ -10,6 +10,10 @@ int main() {
     }
     int isRepeat = 0;
     for(int i = 0; i < N; i++){
+        if(N == 1){
+            printf("-1");
+            break;
+        }
         for(int j = 0; j < N; j++){
             if(i==j){
                 continue;

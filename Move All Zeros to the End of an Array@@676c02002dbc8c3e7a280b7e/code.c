@@ -10,7 +10,9 @@ int main() {
     }
     // int last = N-1;
     int newarr[N];
-    newarr[0] = 0;
+    for(int i = 0; i < N; i++){
+        newarr[i] = 0;
+    }
     for(int i = 0; i < N; i++){
         if(arr[i] == 0){
             continue;

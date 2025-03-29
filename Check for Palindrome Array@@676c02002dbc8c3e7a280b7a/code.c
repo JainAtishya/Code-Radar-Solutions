@@ -16,6 +16,7 @@ int main() {
             break;
         }else if(left+right == N-1){
             printf("YES");
+            break;
         }
         left++;
         right--;

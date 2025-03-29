@@ -18,5 +18,8 @@ int main() {
             printf("%d", arr[i]);
             break;
         }
-    }                    
+    }
+    if(freq< N/2){
+        printf("-1");
+    }                   
 }

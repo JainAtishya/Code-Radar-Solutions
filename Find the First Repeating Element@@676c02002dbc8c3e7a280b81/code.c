@@ -8,6 +8,7 @@ int main() {
     for(int i = 0; i < N; i++){
         scanf("%d", &arr[i]);
     }
+    int isRepeat = 0;
     for(int i = 0; i < N; i++){
         for(int j = 0; j < N; j++){
             if(i==j){
@@ -15,10 +16,14 @@ int main() {
             }
             if(arr[i] == arr[j]){
                 printf("%d", arr[i]);
+                isRepeat = 1;
                 break;
             }else if(i == N-1 & j == N-2){
                 printf("-1");
             }
+        }
+        if(isRepeat){
+            break;
         }
     }
     return 0;

@@ -8,13 +8,12 @@ int main() {
     for(int i = 0; i < N; i++){
         scanf("%d", &arr[i]);
     }
-    int last = N-1;
+    // int last = N-1;
     int newarr[N];
     newarr[0] = 0;
     for(int i = 0; i < N; i++){
         if(arr[i] == 0){
-            newarr[last] = arr[i];
-            last--;
+            continue;
         }else{
             newarr[i] = arr[i];
         }

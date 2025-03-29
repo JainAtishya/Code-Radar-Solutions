@@ -10,16 +10,18 @@ int main() {
     }
     int left = 0;
     int right = N-1;
+    int isPalindrome = 1;
     while(left < right){
         if(arr[left] != arr[right]){
-            printf("NO");
-            break;
-        }else if(left==N/2 || left==N/2 + 1){
-            printf("YES");
+            isPalindrome = 0;
             break;
         }
         left++;
         right--;
     }
-    
+    if(isPalindrome){
+        printf("YES");
+    }else{
+        printf("NO");
+    }
 }

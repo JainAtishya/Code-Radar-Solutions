@@ -7,6 +7,7 @@
 //     int arr[N];
 //     for(int )
 // }
+#include <stdio.h>
 int bubbleSort(arr, n){
     for(int i = n-1; i > 0; i--){
         int isswaped = 0;

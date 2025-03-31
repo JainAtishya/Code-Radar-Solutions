@@ -31,6 +31,9 @@
 #include <stdio.h>
 
 int sorted(int arr[], int N) {
+    if (N < 2) {
+        return -1;  // Return -1 if there aren't enough elements
+    }
 
     int largest = arr[0], secondLargest = -1;
 

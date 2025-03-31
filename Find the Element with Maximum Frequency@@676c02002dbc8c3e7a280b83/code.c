@@ -29,5 +29,6 @@ int main() {
             }
         }
     }
+    printf("%d", arr[highestfreqelement]);
     return 0;
 }

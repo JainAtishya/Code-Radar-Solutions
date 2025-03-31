@@ -1,10 +1,11 @@
 // Your code here...
 #include <stdio.h>
+#include <limits.h>
 int sorted(int arr[], int N){
     if(N < 2){
         return -1;
     }
-    int largest = arr[0], secondLargest = -1;
+    int largest = arr[0], secondLargest = INT_MIN;
     for (int i = 1; i < N; i++) {
         if (arr[i] > largest) {
             secondLargest = largest;
@@ -12,6 +13,9 @@ int sorted(int arr[], int N){
         } else if (arr[i] > secondLargest && arr[i] != largest) {
             secondLargest = arr[i];
         }
+    }
+    if (secondLargest == INT_MIN) {
+        return -1;  // No second largest element
     }
     return secondLargest;
 }

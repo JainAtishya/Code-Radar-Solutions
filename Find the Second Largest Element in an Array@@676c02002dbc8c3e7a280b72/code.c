@@ -27,6 +27,6 @@ int main() {
     for(int i = 0; i < N; i++){
         scanf("%d", &arr[i]);
     }
-    secondlargest = sorted(arr, N);
+    int secondlargest = sorted(arr, N);
     printf("%d", secondlargest);
 }

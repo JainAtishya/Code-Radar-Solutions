@@ -14,7 +14,7 @@ int sorted(int arr[], int N){
         }
     }
     if(isswapped){
-        return arr[n-1];
+        return arr[N-2];
     }else{
         return -1;
     }

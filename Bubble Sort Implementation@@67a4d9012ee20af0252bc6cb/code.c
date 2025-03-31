@@ -7,8 +7,8 @@
 //     int arr[N];
 //     for(int )
 // }
-#include <stdio.h>
-int bubbleSort(arr, n){
+// #include <stdio.h>
+void bubbleSort(int arr[n], int n){
     for(int i = n-1; i > 0; i--){
         int isswaped = 0;
         for(int j = 0; j < i; j++){
@@ -25,7 +25,7 @@ int bubbleSort(arr, n){
     }
 }
 
-void printArray(arr, n){
+void printArray(int arr[n], int n){
     for(int i = 0; i < n; i++){
         printf("%d ", arr[i]);
     }

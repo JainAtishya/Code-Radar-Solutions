@@ -1,8 +1,9 @@
 // Your code here...
 #include <stdio.h>
 int sorted(int arr[], int N){
+    int isswapped;
     for(int i = N-1; i > 0; i--){
-        static int isswapped = 0;
+        isswapped = 0;
         for(int j = 0; j < i; j++){
             if(arr[j] > arr[j+1]){
                 int temp = arr[j];

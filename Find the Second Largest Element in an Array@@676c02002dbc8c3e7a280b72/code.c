@@ -4,7 +4,7 @@ int sorted(int arr[], int N){
     if(N < 2){
         return -1;
     }
-    for (int i = 1; i < n; i++) {
+    for (int i = 1; i < N; i++) {
         if (arr[i] > largest) {
             secondLargest = largest;
             largest = arr[i];

@@ -1,5 +1,23 @@
 // Your code here...
 #include <stdio.h>
+int sorted(int arr[], int N){
+    for(int i = N-1; i > 0; i--){
+        int isswapped = 0;
+        for(int j = 0; j < i; j++){
+            if(arr[j] > arr[j+1]){
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+                isswapped = 1;
+            }
+        }
+    }
+    if(isswapped){
+        return arr[1];
+    }else{
+        return -1;
+    }
+}
 
 int main() {
     int N;
@@ -8,15 +26,6 @@ int main() {
     for(int i = 0; i < N; i++){
         scanf("%d", &arr[i]);
     }
-    int largest = arr[0];
-    int second_largest = arr[0];
-    for(int i = 0; i < N; i++){
-        for(int j = 0; j < N; j++){
-            if(arr[i] > arr[j]){
-                second_largest = largest;
-                largest = arr[j];
-            }
-        }
-    }
-    printf("%d", second_largest);
+    secondlargest = sorted(arr, N);
+    printf("%d", secondlargest);
 }

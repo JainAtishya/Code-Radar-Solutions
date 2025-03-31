@@ -13,7 +13,7 @@ int sorted(int arr[], int N){
             }
         }
     }
-    return arr[n-2];
+    return arr[N-2];
 }
 
 int main() {

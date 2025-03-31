@@ -13,11 +13,7 @@ int sorted(int arr[], int N){
             }
         }
     }
-    if(arr[1] == arr[0] && arr[1] == arr[2]){
-        return -1;
-    }else{
-        return arr[1];
-    }
+    return arr[1];
 }
 
 int main() {

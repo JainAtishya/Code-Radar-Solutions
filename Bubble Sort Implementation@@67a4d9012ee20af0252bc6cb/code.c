@@ -7,7 +7,7 @@
 //     int arr[N];
 //     for(int )
 // }
-void bubbleSort(arr, n){
+int bubbleSort(arr, n){
     for(int i = n-1; i > 0; i--){
         int isswaped = 0;
         for(int j = 0; j < i; j++){

@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int sorted(int arr[], int N){
-    const isswapped;
+    int isswapped = 0;
     for(int i = N-1; i > 0; i--){
         // isswapped = 0;
         for(int j = 0; j < i; j++){

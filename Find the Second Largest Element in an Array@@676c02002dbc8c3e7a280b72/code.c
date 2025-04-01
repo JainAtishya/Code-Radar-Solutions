@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 #include <limits.h>
-int sorted(int arr[], int N){
+int secondlarg(int arr[], int N){
     if(N < 2){
         return -1;
     }
@@ -27,7 +27,7 @@ int main() {
     for(int i = 0; i < N; i++){
         scanf("%d", &arr[i]);
     }
-    int secondlargest = sorted(arr, N);
+    int secondlargest = secondlarg(arr, N);
     printf("%d", secondlargest);
 }
 

@@ -51,7 +51,15 @@ int main() {
         return 0;
     }
 
-    // Check first and last elements separately
+    // Check for peak elements in the middle first
+    for (int i = 1; i < N - 1; i++) {
+        if (arr[i] > arr[i - 1] && arr[i] > arr[i + 1]) {
+            printf("%d", arr[i]);
+            return 0;
+        }
+    }
+
+    // If no peak was found in the middle, check the first and last element
     if (arr[0] > arr[1]) {
         printf("%d", arr[0]);
         return 0;
@@ -61,16 +69,7 @@ int main() {
         return 0;
     }
 
-    // Check for peak elements in the middle
-    for (int i = 1; i < N - 1; i++) {
-        if (arr[i] > arr[i - 1] && arr[i] > arr[i + 1]) {
-            printf("%d", arr[i]);
-            return 0;
-        }
-    }
-
     // If no peak is found
     printf("-1");
     return 0;
 }
-

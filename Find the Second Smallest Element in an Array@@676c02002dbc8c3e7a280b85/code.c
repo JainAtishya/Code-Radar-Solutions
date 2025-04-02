@@ -9,7 +9,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
     int smallestelement = 0;
-    int secondsmallest = -1;
+    int secondsmallest = arr[0];
     for(int i = 0; i < N; i++){
         int smallest = 0;
         for(int j = 0; j < N; j++){

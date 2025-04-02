@@ -23,15 +23,18 @@ int main() {
             break;
         }
     }
-    int smallest = arr[0];
+    // int smallest = arr[0];
+    // for(int i = 0; i < N; i++){
+    //     if(arr[i] == smallest){
+    //         smallest++;
+    //         continue;
+    //     }else{
+    //         printf("%d", smallest);
+    //         break;
+    //     }
+    // }
     for(int i = 0; i < N; i++){
-        if(arr[i] == smallest){
-            smallest++;
-            continue;
-        }else{
-            printf("%d", smallest);
-            break;
-        }
+        printf("%d ", arr[i]);
     }
     return 0;
 }
